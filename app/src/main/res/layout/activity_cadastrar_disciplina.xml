@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="boletimescolar.br.edu.ifpi.boletimescolar.CadastrarDisciplina"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Disciplina"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campos com * são obrigatórios"
+        android:layout_gravity="right"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomeOB"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/nomeDisciplinaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Media Pretendida"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/mediaPretendidaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Quantidade de provas"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/quantProvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBS: Media pretendida é a media que vc pretende tirar na matéria!"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:onClick="cadastrar"
+        android:background="@android:color/darker_gray" />
+
+
+
+</LinearLayout>

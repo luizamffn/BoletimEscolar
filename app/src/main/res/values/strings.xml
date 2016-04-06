@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BoletimEscolar</string>
+    <string name="entrar">Entrar</string>
+    <string name="nome">Nome</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="serie">Série</string>
+    <string name="cadastrese"> Cadastre-se</string>
+    <string name="cadastro"> Cadastro</string>
+    <string name="cadastrar"> Cadastrar</string>
+    <string name="fazerCadastro">Ainda não é usuário</string>
+
+    <string-array name="listaDisciplina">
+        <item>Fiat Palio</item>
+        <item>VW Gol</item>
+    </string-array>
+
+    <string-array name="listaEscola">
+        <item>Fiat Palio</item>
+        <item>VW Gol</item>
+    </string-array>
+
+    <string-array name="listaNotas">
+
+    </string-array>
+
+    <!--campos obrigatorios-->
+    <string name="nomeOB">*Nome</string>
+    <string name="usuarioOB">*Usuário</string>
+    <string name="senhaOB">*Senha</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="boletimescolar.br.edu.ifpi.testeboletimescolar.DetalhesEscola">
+
+    <TextView
+        android:id="@+id/nomeEscola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:hint="nomeEscola"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso: "
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/cursoEscola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MediaEscolar: "
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/mediaEscolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media Escolar Final: "
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/mediaEscolarFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/book"
+            android:onClick="cadastrarDisciplina"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Cadastrar Disciplina"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:onClick="cadastrarDisciplina"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="5dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/lupa"
+            android:onClick="verDisciplinas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver Disciplinas"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:onClick="verDisciplinas"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

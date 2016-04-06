@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cNotas"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="boletimescolar.br.edu.ifpi.testeboletimescolar.CadastroNotas"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/nomeDisciplinaNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/valorNotaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:onClick="cadastrarNotaConfirmar"/>
+
+</LinearLayout>
